@@ -1,0 +1,191 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.main {
+	width: 100%;
+	/* background-image: url(./images/desktop/image-header.jpg); */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+/* .blue img {
+	width: 100%;
+	height: 250px;
+} */
+.blue {
+	width: 100%;
+	background-image: url(./images/desktop/image-header.jpg);
+	background-position: center;
+	height: 600px;
+	position: relative;
+	background-size: cover;
+}
+.secondrow {
+	width: 100%;
+	display: flex;
+	/* flex-direction: row; */
+}
+.whiteparagraph {
+	width: 50%;
+	height: 450px;
+	background-color: white;
+}
+.secondrow img {
+	width: 50%;
+	height: 450ppx;
+}
+.thirdrow {
+	width: 100%;
+	display: flex;
+}
+
+.thirdrow img {
+	width: 50%;
+	height: 450ppx;
+}
+.fourthrow {
+	width: 100%;
+	display: flex;
+}
+
+.fourthrow img {
+	width: 50%;
+	height: 450ppx;
+}
+.reviews {
+	width: 100%;
+	background-color: white;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.emily {
+	width: 30%;
+	height: 400px;
+	/* background-color: aqua; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.items {
+	width: 100%;
+	display: flex;
+}
+.items img {
+	width: 25%;
+}
+.about {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: rgb(127, 255, 168);
+	gap: 40px;
+	padding-top: 30px;
+}
+.about h1 {
+	font-size: 20px;
+	letter-spacing: 1px;
+	padding-left: 30px;
+}
+.smallheadings {
+	width: 20%;
+	/* background-color: aqua; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.icons {
+	width: 10%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.header {
+	width: 100%;
+	height: 100px;
+	/* background-color: white; */
+	display: flex;
+
+	justify-content: space-between;
+
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-left: 20px;
+}
+h3 {
+	color: white;
+}
+span {
+	color: white;
+}
+.rightheaders {
+	display: flex;
+	gap: 20px;
+}
+.creative {
+	padding-left: 400px;
+	font-size: 20px;
+	color: white;
+	letter-spacing: 15px;
+	padding-top: 50px;
+}
+.contact {
+	width: 80px;
+	height: 25px;
+	background-color: white;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 12px;
+}
+.whiteparagraph {
+	padding-top: 100px;
+}
+h1 {
+	width: 160px;
+	font-size: 23px;
+}
+.whiteparagraph span {
+	width: 100px;
+	height: 20px;
+	/* background-color: aqua; */
+	color: black;
+	font-weight: 600;
+}
+.whiteparagraph p {
+	width: 300px;
+	font-size: 13px;
+}
+.transform {
+	width: 100%;
+	height: 300px;
+	/* background-color: bisque; */
+	padding: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 20px;
+}
+.img-emily img {
+	width: 40px;
+	height: 40px;
+	background-color: black;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.emily p {
+	width: 100%;
+	padding-right: 30px;
+	padding-left: 60px;
+}
+.emily span {
+	color: black;
+	font-weight: 600;
+}
